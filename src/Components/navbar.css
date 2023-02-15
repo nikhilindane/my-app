@@ -1,0 +1,29 @@
+.navbar {
+    position: relative;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: block;
+    margin: 12px;
+    padding: 12px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgb(36, 61, 61);
+}
+
+.navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(101, 67, 67);
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 9px;
+}
